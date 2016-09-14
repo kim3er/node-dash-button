@@ -99,8 +99,6 @@ var register = function(mac_addresses, iface, timeout, protocol) {
 };
 
 if (process.env.NODE_ENV === 'test') {
-
-
     module.exports = {  hex_to_int_array: hex_to_int_array,
                         int_array_to_hex: int_array_to_hex,
                         create_session: create_session,
